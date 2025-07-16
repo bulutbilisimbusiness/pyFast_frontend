@@ -59,19 +59,20 @@ VITE_CLERK_PUBLISHABLE_KEY=pk_test_your_clerk_key_here
 VITE_API_URL=https://your-backend-url.com
 ```
 ## 📁 Proje Yapısı
-src/
-├── auth/
-│   ├── AuthenticationPage.jsx
-│   └── ClerkProviderWithRoutes.jsx
-├── challenge/
-│   ├── ChallengeGenerator.jsx
-│   └── MCQChallenge.jsx
-├── history/
-│   └── HistoryPanel.jsx
-├── layout/
-│   └── Layout.jsx
-├── utils/
-│   └── api.js
-├── App.jsx
-├── App.css
-└── main.jsx
+### 🔐 Authentication
+- `auth/AuthenticationPage.jsx` - Login/Register sayfası
+- `auth/ClerkProviderWithRoutes.jsx` - Auth routing
+
+### 🧩 Challenge System
+- `challenge/ChallengeGenerator.jsx` - Ana challenge oluşturucu
+- `challenge/MCQChallenge.jsx` - Çoktan seçmeli component
+
+### 📊 Diğer Componentler
+- `history/HistoryPanel.jsx` - Geçmiş challenges
+- `layout/Layout.jsx` - Ana layout component
+- `utils/api.js` - API utilities
+
+### 🎯 Core Files
+- `App.jsx` - Ana uygulama
+- `App.css` - Styles  
+- `main.jsx` - Entry point
