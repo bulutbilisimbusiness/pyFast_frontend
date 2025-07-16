@@ -61,17 +61,17 @@ VITE_API_URL=https://your-backend-url.com
 ## 📁 Proje Yapısı
 src/
 ├── auth/
-│ ├── AuthenticationPage.jsx # Login/Register sayfası
-│ └── ClerkProviderWithRoutes.jsx # Auth routing
+│   ├── AuthenticationPage.jsx
+│   └── ClerkProviderWithRoutes.jsx
 ├── challenge/
-│ ├── ChallengeGenerator.jsx # Ana challenge oluşturucu
-│ └── MCQChallenge.jsx # Çoktan seçmeli component
+│   ├── ChallengeGenerator.jsx
+│   └── MCQChallenge.jsx
 ├── history/
-│ └── HistoryPanel.jsx # Geçmiş challenges
+│   └── HistoryPanel.jsx
 ├── layout/
-│ └── Layout.jsx # Ana layout component
+│   └── Layout.jsx
 ├── utils/
-│ └── api.js # API utilities
-├── App.jsx # Ana uygulama
-├── App.css # Styles
-└── main.jsx # Entry point
+│   └── api.js
+├── App.jsx
+├── App.css
+└── main.jsx
