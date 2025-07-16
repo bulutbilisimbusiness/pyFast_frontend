@@ -2,7 +2,7 @@
 
 Modern React uygulaması ile AI destekli kodlama soruları oluşturun ve çözün!
 
-![PyFast Demo](https://img.shields.io/badge/Status-Live-green) ![React](https://img.shields.io/badge/React-19.1.0-blue) ![Vite](https://img.shields.io/badge/Vite-7.0.4-purple) ![License](https://img.shields.io/badge/License-MIT-yellow)
+![PyFast Demo](https://img.shields.io/badge/Status-Live-green) ![React](https://img.shields.io/badge/React-19.1.0-blue) ![Vite](https://img.shields.io/badge/Vite-7.0.4-purple) 
 
 ## ✨ Özellikler
 
