@@ -19,8 +19,8 @@ export function ChallengeGenerator() {
 		try {
 			const data = await makeRequest("quota");
 			setQuota(data);
-		} catch (err) {
-			console.log(err);
+		} catch {
+			// Error handled silently
 		}
 	};
 
