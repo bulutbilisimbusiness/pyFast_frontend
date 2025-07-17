@@ -38,7 +38,7 @@ Modern React uygulaması ile AI destekli kodlama soruları oluşturun ve çözü
 
 ```bash
 # Repository'i klonlayın
-git clone https://github.com/username/pyfast-frontend.git
+git clone https://github.com/bulutbilisimbusiness/pyfast-frontend.git
 cd pyfast-frontend
 
 # Dependencies'leri yükleyin
