@@ -5,8 +5,18 @@ export function AuthenticationPage() {
 	return (
 		<div className="auth-container">
 			<SignedOut>
-				<SignIn routing="path" path="/sign-in" />
-				<SignUp routing="path" path="/sign-up" />
+				<SignIn
+					routing="path"
+					path="/sign-in"
+					fallbackRedirectUrl="/"
+					signUpUrl="/sign-up"
+				/>
+				<SignUp
+					routing="path"
+					path="/sign-up"
+					fallbackRedirectUrl="/"
+					signInUrl="/sign-in"
+				/>
 			</SignedOut>
 			<SignedIn>
 				<div className="redirect-message">
