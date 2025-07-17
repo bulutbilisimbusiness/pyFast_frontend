@@ -26,7 +26,7 @@ Modern React uygulaması ile AI destekli kodlama soruları oluşturun ve çözü
 
 ## 🚀 Canlı Demo
 
-🌐 **[PyFast'i Deneyin!](https://py-fast-frontend-railway-b3no0bs89.vercel.app/)**
+🌐 **[PyFast'i Deneyin!](https://py-fast-frontend-railway.vercel.app/)**
 
 ## 🏁 Hızlı Başlangıç
 
